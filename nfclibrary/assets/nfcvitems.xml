@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nfc>
+<item key="CardType" type="Int" bytecount="4"/>
+<item key="CardCode" type="Int" bytecount="4"/>
+<item key="CustomerManagerFeedback" type="String" bytecount="246"/>
+<item key="DispacterFeedback" type="String" bytecount="254"/>
+<item key="SalerFeedback" type="String" bytecount="254"/>
+<item key="ShopName" type="String" bytecount="190"/>
+<item key="ShopOwnerName" type="String" bytecount="190"/>
+<item key="CustomerCode" type="String" bytecount="22"/>
+<item key="LineCode" type="String" bytecount="22"/>
+<item key="Relibility" type="Int" bytecount="4"/>
+<item key="BadRecord" type="Int" bytecount="4"/>
+<item key="CustomerManagerFeedbackFlag" type="Int" bytecount="4"/>
+<item key="DispacterFeedbackFlag" type="Int" bytecount="4"/>
+<item key="SalerFeedbackFlag" type="Int" bytecount="4"/>
+<item key="IsMain" type="Int" bytecount="4"/>
+</nfc>

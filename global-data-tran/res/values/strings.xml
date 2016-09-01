@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">全局变量传值</string>
+    <string name="title_activity_app_data_rec">接收数据</string>
+    <string name="btn_val">测试</string>
+    <string name="title_activity_constant_main">ConstantMainActivity</string>
+    <string name="title_activity_constant_rec">ConstantRecActivity</string>
+    <string name="con_btn_val">Test</string>
+    <string name="btn_start_new">启动常量</string>
+
+</resources>

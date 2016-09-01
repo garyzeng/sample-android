@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView" android:layout_width="wrap_content"
+	android:layout_height="wrap_content" android:scrollbars="vertical">
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:stretchColumns="1" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:padding="5dp">
+
+		<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="@string/txtConnection" />
+			<TextView android:id="@+id/lblConnection" android:textColor="#ef3c24"
+				android:padding="3dip" android:scrollHorizontally="true" />
+		</TableRow>
+		<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="@string/txtCardType" />
+			<EditText android:id="@+id/txtCardType" android:padding="3dip"
+				android:scrollHorizontally="true" />
+		</TableRow>
+		<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="@string/txtCardCode" />
+			<EditText android:id="@+id/txtCardCode" android:padding="3dip"
+				android:scrollHorizontally="true" />
+		</TableRow>
+		<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="@string/txtShopName" />
+			<EditText android:id="@+id/txtShopName" android:padding="3dip"
+				android:scrollHorizontally="true" />
+		</TableRow>
+		<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="@string/txtRelibility" />
+			<EditText android:id="@+id/txtRelibility" android:padding="3dip"
+				android:scrollHorizontally="true" />
+		</TableRow>
+		<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="@string/txtCustomerManagerFeedback" />
+			<EditText android:id="@+id/txtCustomerManagerFeedback"
+				android:padding="3dip" android:scrollHorizontally="true" />
+		</TableRow>
+		<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="@string/txtMonopolyFeedback" />
+			<EditText android:id="@+id/txtMonopolyFeedback"
+				android:padding="3dip" android:scrollHorizontally="true" />
+		</TableRow>
+		<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="@string/txtDeliveryFeedback" />
+			<EditText android:id="@+id/txtDeliveryFeedback"
+				android:padding="3dip" android:scrollHorizontally="true" />
+		</TableRow>
+		<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="是否主卡" />
+			<EditText android:id="@+id/txtIsMain" android:padding="3dip"
+				android:scrollHorizontally="true" />
+		</TableRow>
+				<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="客户经理反馈标志位" />
+			<EditText android:id="@+id/txtCustomerManagerFeedbackFlag" android:padding="3dip"
+				android:scrollHorizontally="true" />
+		</TableRow>
+				<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="专卖员反馈标志位" />
+			<EditText android:id="@+id/txtMonopolyFeedbackFlag" android:padding="3dip"
+				android:scrollHorizontally="true" />
+		</TableRow>
+				<TableRow>
+			<TextView android:gravity="right" android:padding="3dip"
+				android:text="配送员反馈标志位" />
+			<EditText android:id="@+id/txtDeliveryFeedbackFlag" android:padding="3dip"
+				android:scrollHorizontally="true" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/btnGetCardCode" android:padding="3dip"
+				android:text="卡号" />
+			<Button android:id="@+id/btnUpdateCardCode" android:padding="3dip"
+				android:text="修改卡号" />
+		</TableRow>
+		<TableRow>
+
+			<Button android:id="@+id/btnGetCardType" android:padding="3dip"
+				android:text="获取卡类型" />
+			<Button android:id="@+id/btnUpdateCardType" android:padding="3dip"
+				android:text="更新卡类型" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/btnGetMultiple" android:padding="3dip"
+				android:text="获取所有" />
+			<Button android:id="@+id/btnUpdateAll" android:padding="3dip"
+				android:text="全部更新" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/btnAppendCustomerManagerFeedback"
+				android:padding="3dip" android:text="增加客户经理评价" />
+			<Button android:id="@+id/btnUpdateCustomerManagerFeedback"
+				android:padding="3dip" android:text="修改客户经理评价" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/btnAppendMonopolyFeedback"
+				android:padding="3dip" android:text="增加专卖员评价" />
+			<Button android:id="@+id/btnUpdateMonopolyFeedback"
+				android:padding="3dip" android:text="修改专卖员评价" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/btnAppendDeliveryFeedback"
+				android:padding="3dip" android:text="增加配送员评价" />
+			<Button android:id="@+id/btnUpdateDeliveryFeedback"
+				android:padding="3dip" android:text="修改配送员评价" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/btnDeleteCustomerManagerFeedback"
+				android:padding="3dip" android:text="清除客户经理评价" />
+			<Button android:id="@+id/btnDeleteMonopolyFeedback"
+				android:padding="3dip" android:text="清除专卖员评价" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/btnDeleteDeliveryFeedback"
+				android:padding="3dip" android:text="清除配送员评价" />
+			<Button android:id="@+id/btnUpdateIsMain" android:padding="3dip"
+				android:text="更新主副卡类型" />
+		</TableRow>
+
+		<TableRow>
+			<Button android:id="@+id/btnGetIsMain" android:padding="3dip"
+				android:text="显示主副卡类型" />
+		</TableRow>
+
+	</TableLayout>
+</ScrollView>
+	
+
+

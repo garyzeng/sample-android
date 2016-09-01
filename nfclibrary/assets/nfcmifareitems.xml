@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nfc>
+<item key="CardCode1" type="String" bytecount="430"/>
+<item key="CardType" type="Int" bytecount="4"/>
+<item key="CardNum" type="Int" bytecount="4"/>
+<item key="CardCode" type="String" bytecount="230"/>
+</nfc>

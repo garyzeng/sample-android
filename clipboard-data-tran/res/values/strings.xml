@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">剪切板数据传递</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_data_rec">DataRecActivity</string>
+    <string name="btn_tx">Test</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="txtCardType">卡类型：</string>
+	<string name="txtCardCode">卡号：</string>
+	<string name="txtShopName">商店名称：</string>
+	<string name="txtRelibility">信用等级：</string>
+	<string name="txtCustomerManagerFeedback">客户经理反馈：</string>
+	<string name="txtMonopolyFeedback">专卖员反馈：</string>
+	<string name="txtDeliveryFeedback">配送员反馈：</string>
+	<string name="txtConnection">连接状态：</string>
+	<string name="app_name">NfcDemo</string>
+</resources>
